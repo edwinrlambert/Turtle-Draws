@@ -4,17 +4,17 @@ A Python script that uses the turtle module to create mesmerizing random drawing
 
 ## Features
 
-* Initializes a full-screen turtle canvas with predefined settings.
-* Draws random patterns consisting of random circles, dots, and movements.
-* Saves the created artwork as a .png image in the turtle-draws-img directory.
-* Closes the turtle window after saving the image.
+- Initializes a full-screen turtle canvas with predefined settings.
+- Draws random patterns consisting of random circles, dots, and movements.
+- Saves the created artwork as a .png image in the turtle-draws-img directory.
+- Closes the turtle window after saving the image.
 
 ## Dependencies
 
-* `turtle`: Built-in Python module for drawing.
-* `colorsys`: Built-in Python module for color system conversions.
-* `random`: Built-in Python module for generating random numbers.
-* `PIL (Pillow)`: Python Imaging Library, used for saving the turtle drawings as images.
+- `turtle`: Built-in Python module for drawing.
+- `colorsys`: Built-in Python module for color system conversions.
+- `random`: Built-in Python module for generating random numbers.
+- `PIL (Pillow)`: Python Imaging Library, used for saving the turtle drawings as images.
 
 ## Installation
 
@@ -66,23 +66,35 @@ A Python script that uses the turtle module to create mesmerizing random drawing
 
    This will install all of the packages listed in the requirements.txt file.
 
-
 ## How to Run
+
 1. Ensure you have all the dependencies installed.
 2. Run the script:
-    ```
-    python turtle-draws.py
-    ```
+   ```
+   python turtle-draws.py
+   ```
 3. Check the turtle-draws-img directory for the saved artwork.
 
 ## Functions
-* `setup_turtle()`: Sets up the turtle with predefined settings.
-* `random_circle(t)`: Draws a random circle.
-* `random_dot(t)`: Draws a random dot.
-* `random_speed(t)`: Sets a random speed for the turtle.
-* `draw_random_patterns(t, iterations=1000)`: Draws random patterns on the screen.
-* `save_image(screen)`: Saves the drawing as a .png image.
-* `close_turtle(screen)`: Closes the turtle window.
+
+- `setup_turtle()`: Sets up the turtle with predefined settings.
+- `random_circle(t)`: Draws a random circle.
+- `random_dot(t)`: Draws a random dot.
+- `random_speed(t)`: Sets a random speed for the turtle.
+- `draw_random_patterns(t, iterations=1000)`: Draws random patterns on the screen.
+- `save_image(screen)`: Saves the drawing as a .png image.
+- `close_turtle(screen)`: Closes the turtle window.
+
+## Examples
+
+![Turtle Draws Example 1](turtle-draws-img/turtle_art_1691987647.png)
+
+![Turtle Draws Example 2](turtle-draws-img/turtle_art_1691987699.png)
+
+![Turtle Draws Example 3](turtle-draws-img/turtle_art_1691987746.png)
+
+![Turtle Draws Example 4](turtle-draws-img/turtle_art_1691987810.png)
 
 ## License
+
 This project is open-sourced under the MIT License.
